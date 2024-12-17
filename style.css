@@ -11,3 +11,33 @@ body {
     margin-top: 10px;
 }
 
+#container {
+    background-color: lightgrey;
+    border: black solid;
+    padding: 50px;
+}
+
+#calc-input {
+    border: black solid;
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    min-height: 100px;
+    min-width: 300px;
+}
+
+#functions-body {
+    display: flex;
+    margin-left: 28px;
+    margin-top: 10px;
+}
+
+button {
+    padding: 20px;
+    margin: 5px;
+}
+
+li {
+    text-decoration: none;
+  list-style-type: none;
+}
