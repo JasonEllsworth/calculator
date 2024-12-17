@@ -3,7 +3,8 @@ calculator project from odin
 
 Here are some use cases (expectations about your project):
 
-Your calculator is going to contain functions for all of the basic math operators you typically find on calculators, so start by creating functions for the following items and testing them in your browser’s console:
+Your calculator is going to contain functions for all of the basic math operators you typically find on calculators, 
+so start by creating functions for the following items and testing them in your browser’s console:
 add
 subtract
 multiply
@@ -28,17 +29,24 @@ ith the result of the operation.
 
 This is the hardest part of the project. You need to figure out how to store all the values and call the operate 
 function with them. Don’t feel bad if it takes you a while to figure out the logic.
+
 Gotchas: watch out for and fix these bugs if they show up in your code:
-Your calculator should not evaluate more than a single pair of numbers at a time. Example: you enter a number (12), 
-followed by an operator button (+), a second number button (7), and a second operator button (-). Your calculator 
+Your calculator should not evaluate more than a single pair of numbers at a time. 
+Example: you enter a number (12), 
+followed by an operator button (+), a second number button (7), and a second operator button (-). 
+Your calculator 
 should then do the following: first, evaluate the initial pair of numbers (12 + 7), then display the result of that c
 alculation (19). Finally, use that result (19) as the first number in a new calculation, along with the next operator 
 (-). An example of the behavior we’re looking for can be seen in this student’s calculator live preview.
 You should round answers with long decimals so that they don’t overflow the display.
+
 Pressing = before entering all of the numbers or an operator could cause problems!
+
 Pressing “clear” should wipe out any existing data. Make sure the user is really starting fresh after pressing “clear”.
 Display a snarky error message if the user tries to divide by 0… and don’t let it crash your calculator!
+
 Make sure that your calculator only runs an operation when supplied with two numbers and an operator by the user. 
+
 Example: you enter a number (2), followed by an operator button (+). You press the operator button (+) a second 
 consecutive time. Your calculator should not evaluate this as (2 + 2) and should not display the result (4). 
 If consecutive operator buttons are pressed, your calculator should not run any evaluations, it should only take the 
